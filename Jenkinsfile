@@ -28,7 +28,9 @@ pipeline{
         }
 
     stage('Deploy to Staging'){
-
+        steps {
+                echo "Ok"
+            }
     }
 
     stage ('Cucumber Reports') {
